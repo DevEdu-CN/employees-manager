@@ -2,8 +2,8 @@
 
 # Datasource configuration
 spring.datasource.url=jdbc:postgresql://localhost:5432/employeemanager
-spring.datasource.username=postgres
-spring.datasource.password=Mannguthron
+spring.datasource.username={username}
+spring.datasource.password={password}
 spring.datasource.driver-class-name=org.postgresql.Driver
 
 # Hibernate configurations
